@@ -2,6 +2,7 @@ package com.crazyma.itemshownsample
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
 
 /**
  * @author Batu
@@ -9,7 +10,7 @@ import androidx.fragment.app.FragmentManager
 class CustomPagerAdapter(
     fm: FragmentManager,
     _items: List<Item>
-) : DcardFragmentPagerAdapter(fm) {
+) : DcardFragmentPagerAdapter2(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
     class Item(val type: Int, val title: String)
 

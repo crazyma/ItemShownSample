@@ -17,6 +17,9 @@ class MainActivity : AppCompatActivity() {
             R.id.oneListButton -> {
                 startActivity(Intent(this, OneRecyclerViewActivity::class.java))
             }
+            R.id.viewPagerButton -> {
+                startActivity(Intent(this, PagerActivity::class.java))
+            }
             else -> {
 
             }

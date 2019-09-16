@@ -3,7 +3,7 @@ package com.crazyma.itemshownsample
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.activity_one_recyclerview.*
+import kotlinx.android.synthetic.main.layout_one_recyclerview.*
 
 /**
  * @author Batu
@@ -12,7 +12,7 @@ class OneRecyclerViewActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_one_recyclerview)
+        setContentView(R.layout.layout_one_recyclerview)
         setupRecyclerView()
     }
 

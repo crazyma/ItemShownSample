@@ -21,7 +21,7 @@ class ListAdapter(var items: List<Item>? = null) : RecyclerView.Adapter<ListAdap
         holder.bind(items!![position])
     }
 
-    class Item(val id: Int, val title: String)
+    data class Item(val id: Int, val title: String)
 
     class ListViewHolder(itemView: View) :
         RecyclerView.ViewHolder(itemView) {

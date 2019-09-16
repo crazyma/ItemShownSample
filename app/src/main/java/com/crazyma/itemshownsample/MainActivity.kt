@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
             R.id.viewPagerButton -> {
                 startActivity(Intent(this, PagerActivity::class.java))
             }
+            R.id.collapsedPagerButton -> {
+                startActivity(Intent(this, CollapsedPagerActivity::class.java))
+            }
             else -> {
 
             }

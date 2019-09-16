@@ -19,6 +19,8 @@
         <activity android:name=".OneRecyclerViewActivity" />
         <activity android:name=".PagerActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".CollapsedPagerActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
